@@ -1,0 +1,8 @@
+:root {
+    /*Colors*/
+    --d-gray: #5E6E7F;
+  }
+
+body {
+    background-color: var(--d-gray);
+}
