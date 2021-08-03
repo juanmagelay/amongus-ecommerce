@@ -1,8 +1,16 @@
 :root {
     /*Colors*/
-    --d-gray: #5E6E7F;
+    --imp-light-blue: #14FBDF;
+    --imp-green: #75FA41;
+    --imp-yellow: #FBE414;
+    --imp-black: #000000;
+    --imp-white: #FFFFFF;
+    --imp-red: #FB1414;
+    --imp-grey: #989898;
+    --imp-grey-blue: #9BACC0;
+    
   }
 
 body {
-    background-color: var(--d-gray);
+    background-color: var(--imp-black);
 }
