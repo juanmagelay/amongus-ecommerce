@@ -1,0 +1,55 @@
+:root {
+    /*Colors*/
+    --imp-light-blue: #14FBDF;
+    --imp-green: #75FA41;
+    --imp-yellow: #FBE414;
+    --imp-black: #000000;
+    --imp-white: #FFFFFF;
+    --imp-red: #FB1414;
+    --imp-grey: #989898;
+    --imp-grey-blue: #9BACC0;
+  }
+
+/*Fonts*/
+@font-face {
+  font-family: 'vcr_osd_monoregular';
+  src: url('../assets/fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+        url('../assets/fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('AmaticSC-Bold.woff2') format('woff2'),
+      url('AmaticSC-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*Boostrap 4 changed styles*/
+  
+  /*Navbar*/
+  .bg-dark {
+    background-color: var(--imp-black) !important;
+  }
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  .navbar-dark .navbar-toggler .navbar-toggler-icon {
+    background-image: url("../assets/icons/imp-times.png");
+  }
+  .navbar-dark .collapsed .navbar-toggler-icon {
+    background-image: url("../assets/icons/imp-hamburguer.png");
+  }
+
+/*My website*/
+body {
+    font-family: 'vcr_osd_monoregular';
+    color: var(--imp-light-blue);
+}
+h1 {
+  font-family: 'Amatic SC';
+  color: var(--imp-green);
+}
