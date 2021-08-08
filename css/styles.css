@@ -37,10 +37,10 @@
     width: 2.5em;
     height: 2.5em;
   }
-  .navbar-dark .navbar-toggler .navbar-toggler-icon {
+  .navbar-dark [aria-expanded="true"] .navbar-toggler-icon {
     background-image: url("../assets/icons/imp-times.png");
   }
-  .navbar-dark .collapsed .navbar-toggler-icon {
+  .navbar-dark .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
     background-image: url("../assets/icons/imp-hamburguer.png");
   }
 
