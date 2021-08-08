@@ -22,6 +22,8 @@
   font-family: 'Amatic SC';
   src: url('../assets/fonts/AmaticSC-Bold.woff2') format('woff2'),
       url('../assets/fonts/AmaticSC-Bold.woff') format('woff');
+  src: url('AmaticSC-Bold.woff2') format('woff2'),
+      url('AmaticSC-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -144,4 +146,31 @@ body {
     justify-content: space-evenly;
     height: 93vh;
   }
+}
+
+/*Boostrap 4 changed styles*/
+  
+  /*Navbar*/
+  .bg-dark {
+    background-color: var(--imp-black) !important;
+  }
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  .navbar-dark .navbar-toggler .navbar-toggler-icon {
+    background-image: url("../assets/icons/imp-times.png");
+  }
+  .navbar-dark .collapsed .navbar-toggler-icon {
+    background-image: url("../assets/icons/imp-hamburguer.png");
+  }
+
+/*My website*/
+body {
+    font-family: 'vcr_osd_monoregular';
+    color: var(--imp-light-blue);
+}
+h1 {
+  font-family: 'Amatic SC';
+  color: var(--imp-green);
 }
