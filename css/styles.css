@@ -43,7 +43,7 @@ h2 {
 h3 {
   font-family: 'vcr_osd_monoregular';
   color: var(--imp-yellow);
-  font-size: large;
+  font-size: small;
 }
 h4 {
   color: var(--imp-white);
