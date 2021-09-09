@@ -179,6 +179,102 @@ body {
     color: var(--imp-light-blue);
 }
 h1 {
+  font-family: 'vcr_osd_monoregular';
+  color: var(--imp-light-blue);
+  font-size: x-large;
+}
+h2 {
+  font-family: 'vcr_osd_monoregular';
+  color: var(--imp-white);
+  font-size: medium;
+}
+h3 {
+  font-family: 'vcr_osd_monoregular';
+  color: var(--imp-yellow);
+  font-size: large;
+}
+h4 {
+  color: var(--imp-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+body {
   font-family: 'Amatic SC';
   color: var(--imp-green);
+}
+
+/*Buttons*/
+.imp-button {
+  background-color: var(--imp-black);
+  border-radius: 10px;
+  border-width: 3px;
+  color: var(--imp-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+}
+.imp-button:hover {
+  background-color: var(--imp-white);
+  border: 3px solid var(--imp-white);
+  color: var(--imp-black);
+}
+.imp-button-desktop {
+  width: 309px;
+}
+.imp-button-mobile {
+  width: 100%;
+}
+.imp-button-outstanding {
+  border-color: var(--imp-green);
+}
+.imp-button-common {
+  border-color: var(--imp-white);
+}
+
+/*Navbar*/
+.bg-dark {
+  background-color: var(--imp-black) !important;
+}
+.navbar-toggler-icon {
+  width: 2.5em;
+  height: 2.5em;
+}
+.navbar-dark [aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url("../assets/icons/imp-times.png");
+}
+.navbar-dark .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+  background-image: url("../assets/icons/imp-hamburguer.png");
+}
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: var(--imp-white) !important;
+}
+.active .nav-link {
+  color: var(--imp-light-blue) !important;
+}
+
+/*Home*/
+/*Central content*/
+#imp-bg-stars {
+  background-image: url("../assets/img/imp-space.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background-color: transparent !important;
+}
+#central-content-card {
+  width: 24rem;
+}
+#imp-img-desktop {
+  width: 100%;
+}
+/*Product cards*/
+.card-img-top {
+  height: 24rem;
+}
+.card-text {
+  color: var(--imp-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
 }
