@@ -66,7 +66,8 @@ body {
 }
 .imp-button:hover {
   background-color: var(--imp-white);
-  border: 3px solid var(--imp-white);
+  border: 3px solid var(--imp-black);
+  outline: 5px solid var(--imp-black);
   color: var(--imp-black);
 }
 .imp-button-desktop {
@@ -122,6 +123,15 @@ body {
   width: 100%;
 }
 /*Product cards*/
+.card-products {
+
+  border-radius: 10px;
+  border-width: 3px;
+  border: 1.5px solid var(--imp-black); 
+  outline: 3px solid var(--imp-white);
+  outline-style:double;
+  
+}
 .card-img-top {
   height: 24rem;
 }
