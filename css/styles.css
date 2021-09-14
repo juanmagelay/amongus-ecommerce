@@ -127,9 +127,8 @@ body {
 
   border-radius: 10px;
   border-width: 3px;
-  border: 1.5px solid var(--imp-black); 
-  outline: 3px solid var(--imp-white);
-  outline-style:double;
+  border: 3px solid var(--imp-white); 
+  
   
 }
 .card-img-top {
