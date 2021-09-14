@@ -138,4 +138,75 @@ body {
   font-size: small;
 }
 
+/*Logos*/
 
+.logo-medium {
+
+  width: 220px;
+}
+
+.logo-instagram {
+
+  width: 38px;
+  height: 36px;
+}
+
+/*Sección feedback*/
+
+.feedback {
+
+  width: 100%;
+  height: 490px;
+  background-color: #9BACC0;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+ 
+}
+
+.input-feedback {
+
+  width: 309px;
+  height: 44px;
+  border-radius: 10px;
+  text-align: center;
+  border: solid;
+
+}
+
+.feddback-title {
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 22px 0px;
+  width: 340px;
+  height: 56px;
+}
+
+.boton-enviar {
+
+  background-color: #000000;
+  border: 3px solid #75FA41;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
