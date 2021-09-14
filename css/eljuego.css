@@ -1,5 +1,5 @@
 /* CARD INTRO */
-.intro{
+.intro, .container-fluid{
     overflow: hidden;
 }
 .intro__title{
@@ -72,10 +72,26 @@
     text-decoration: none;
 }
 @media screen and (max-width: 992px){
+    .f-column:first-child{
+        flex-direction: column-reverse;
+    }
+    .f-column:nth-child(2){
+        flex-direction: column;
+        align-items: center;
+    }
     .intro__title{
         font-size: 2em;
     }
     .intro__text{
         font-size: 1em;
+    }
+    .intro__button{
+        margin: 40px 0;
+    }
+}
+@media screen and (max-width: 576px){
+    .intro__button{
+        font-size: 1em;
+        width: 80%;
     }
 }
