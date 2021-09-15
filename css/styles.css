@@ -138,17 +138,33 @@ body {
   font-size: small;
 }
 
-/*Logos*/
+/*Seccion redes*/
 
 .logo-medium {
 
   width: 220px;
+  text-align: center;
+  justify-content: center;
 }
 
 .logo-instagram {
 
   width: 38px;
   height: 36px;
+}
+
+.logo-mobile {
+
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+}
+
+.instagram-mobile {
+
+  text-align: center;
+  align-content: center;
+
 }
 
 /*Sección feedback*/
