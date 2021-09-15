@@ -102,6 +102,21 @@ body {
 .active .nav-link {
   color: var(--imp-light-blue) !important;
 }
+@media screen and (min-width: 992px) {
+  .nav-link:hover {
+    color: var(--imp-yellow) !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .nav-link {
+    font-family: 'vcr_osd_monoregular';
+    font-size: x-large;
+  }
+  .navbar-nav {
+    justify-content: space-evenly;
+    height: 93vh;
+  }
+}
 
 /*Home*/
 /*Central content*/
@@ -129,20 +144,5 @@ body {
   font-size: small;
 }
 
-/* MEJORAR MENÚ PRINCIPAL */
-@media screen and (min-width: 992px) {
-  .nav-link:hover{
-    color: var(--imp-yellow) !important;
-  }
-}
-@media screen and (max-width: 992px) {
-  .nav-link{
-    font-family: 'Amatic SC', Arial, Helvetica, sans-serif;
-    font-size: x-large;
-  }
-  .navbar-nav{
-    justify-content: space-evenly;
-    height: 93vh;
-  }
-}
+
 
