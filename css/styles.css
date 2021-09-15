@@ -227,3 +227,38 @@ body {
   box-sizing: border-box;
   border-radius: 10px;
 }
+
+/*Footer*/
+footer {
+
+  height: 82px;
+  display: flex;
+  align-items: center;
+  background-color: var(--imp-white);
+  
+}
+
+.logo-behance{
+
+  margin-left: 20px;
+}
+
+.titulo-footer {
+
+  font-family: 'vcr_osd_monoregular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.subtitulo-footer{
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+}
