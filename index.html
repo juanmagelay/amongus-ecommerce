@@ -135,18 +135,23 @@
   </div>
 
   <!--Seccion feedback-->
+
   <section class="feedback">
+    
     <div>
       <h4 class="feddback-title">¿Ya nos compraste? Danos feedback</h4>
     </div>
+    
+    <form action="mailto:juanmanuelgelay@gmail.com" method="post" enctype="text/plain">
+
     <div class="input-group">
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Email</label>
-        <textarea class="input-feedback form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+        <textarea class="input-feedback form-control" id="exampleFormControlTextarea1" rows="1" name="Email"></textarea>
       </div>
     </div>
     <div class="input-group">
-      <select class="input-feedback form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <select class="input-feedback form-select form-select-lg mb-3" name="Calificacion" aria-label=".form-select-lg example">
         <option selected>Califícanos del 1 al 5</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -158,7 +163,7 @@
     <div class="input-group">
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">¿Por que?</label>
-        <textarea class="input-feedback form-control" id="exampleFormControlTextarea1" rows="1">Escribí acá</textarea>
+        <textarea class="input-feedback form-control" name="Comentarios" id="exampleFormControlTextarea1" rows="1">Escribí acá</textarea>
       </div>
     </div>
      <div class="input-group">
@@ -166,8 +171,13 @@
         <button class="input-feedback btn btn-dark boton-enviar" type="submit">Enviar</button>
       </div>
     </div>
+
+  </form>
+
   </section>
 
+  <!--Footer-->
+  
   <footer>
     <div class="container">
       <div class="row align-items-center">
