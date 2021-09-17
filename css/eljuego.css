@@ -1,48 +1,27 @@
 /* CARD INTRO */
-.intro, .container-fluid{
-    overflow: hidden;
-}
 .intro__title{
     color: var(--imp-light-blue);
-    font-size: 2.5em;
+    font-size: xx-large;
 }
 .intro__text{
-    color: var(--imp-white);
-    font-size: 1.5em;
-    width: 280px;
+    font-size: x-large;
     font-family: 'vcr_osd_monoregular', Arial, Helvetica, sans-serif;
-}
-.intro__button{
-    border: 2px solid var(--imp-green);
-    border-radius: 10px;
-    background-color: var(--imp-black);
-    color: var(--imp-white);
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.intro__button:hover{
-    background-color: var(--imp-white);
-    color: var(--imp-black);
-    transition: 0.3s;
 }
 
 /* CARDS EL JUEGO Y EL CONTENIDO */
 .card{
     color: var(--imp-white);
     font-family: 'vcr_osd_monoregular', Arial, Helvetica, sans-serif;
-    font-size: 1em;
 }
 .card__title{
     color: var(--imp-yellow);
-    font-size: 1.5em;
+    font-size: x-large;
 }
-.card__text{
-    width: 70%;
-}
+
 /* CARD REDES */
 .redes__title, .redes__text{
     color: var(--imp-white);
-    font-size: 1.5em;
+    font-size: x-large;
 }
 .redes__text{
     font-family: 'vcr_osd_monoregular', Arial, Helvetica, sans-serif;
@@ -55,43 +34,27 @@
     width: 38px;
     height: 42px;
     text-indent: -10000px;
-    margin: 0 10px;
 }
 .redes__item:last-child{
     background: url('./../assets/img/ig.jpg') no-repeat center;
     width: 38px;
     height: 42px;
     text-indent: -10000px;
-    margin: 0 10px;
 }
 .redes__item:hover{
     cursor: pointer;
 }
-.redes__link{
-    color: var(--imp-white);
-    text-decoration: none;
-}
 @media screen and (max-width: 992px){
-    .f-column:first-child{
-        flex-direction: column-reverse;
-    }
-    .f-column:nth-child(2){
-        flex-direction: column;
-        align-items: center;
-    }
     .intro__title{
-        font-size: 2em;
+        font-size: xx-large;
     }
     .intro__text{
-        font-size: 1em;
-    }
-    .intro__button{
-        margin: 40px 0;
+        font-size: x-large;
     }
 }
-@media screen and (max-width: 576px){
-    .intro__button{
-        font-size: 1em;
-        width: 80%;
+/* TITULO "EL JUEGO DE MESA" EXTRA LARGE */
+@media screen and (min-width: 1200px){
+    .intro__title{
+        font-size: xxx-large;
     }
 }
