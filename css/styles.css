@@ -8,6 +8,9 @@
     --imp-red: #FB1414;
     --imp-grey: #989898;
     --imp-grey-blue: #9BACC0;
+    --landing-bg-blue: #3590F3;
+    --landing-bg-pink: #ffb3b3;
+    --landing-orange: #FF7606;
   }
 
 /*Fonts*/
@@ -26,6 +29,7 @@
   font-style: normal;
   font-display: swap;
 }
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 
 /*General*/
 h1 {
@@ -211,4 +215,29 @@ footer {
 .subtitulo-footer{
   font-family: Arial;
   font-size: 13px;
+}
+
+/* Landing Page */
+.bg-pink{
+  background-color: var(--landing-bg-pink) !important;
+}
+.landing-title{
+  font-family: 'Walter Turncoat', cursive;
+  color: var(--imp-black);
+  font-size: 96px;
+}
+.landing-text{
+  color: var(--imp-black);
+  font-size: xx-large;
+}
+.nav-landing{
+  color: var(--imp-black) !important;
+}
+.nav-landing:hover{
+  color: var(--imp-white) !important;
+}
+@media screen and (min-width: 992px) {
+  .nav-link:hover {
+    color: var(--imp-white) !important;
+  }
 }
