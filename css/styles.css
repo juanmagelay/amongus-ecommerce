@@ -236,6 +236,63 @@ footer {
 .nav-landing:hover{
   color: var(--imp-white) !important;
 }
+
+.container-derecha{
+
+  background-image: url("../assets/img/fondo\ compra\ derecha.png");
+}
+
+.container-izquierda{
+
+  background-color: #3590F3;
+}
+
+.left-text{
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+
+.titulo-derecha {
+  color: #FBE414;
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+.btn-conoce{
+  background-color: #FF7606;
+  border-radius:8px;
+  
+}
+
+/* Form landing*/
+
+.container-form {
+
+  background-color: #FFFFFF;
+  height: 462px;
+  width: 341px;
+  border-radius: 0px;
+}
+
+.comunicate {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 42px;
+  color: #000000;
+}
 @media screen and (min-width: 992px) {
   .nav-link:hover {
     color: var(--imp-white) !important;
