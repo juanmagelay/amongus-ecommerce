@@ -272,6 +272,8 @@ footer {
 .btn-conoce{
   background-color: #FF7606;
   border-radius:8px;
+  width: 300px;
+  color: white;
   
 }
 
@@ -293,8 +295,41 @@ footer {
   line-height: 42px;
   color: #000000;
 }
+.u-wrapper {
+  max-inline-size: 1232px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.form {
+  max-inline-size: 550px;
+  margin: auto;
+
+}
+.form label {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: .5em;
+  padding-inline-start: .5em;
+}
+.form input, .form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 1rem;
+  padding: .8em;
+  border-radius: .5em;
+  border: 1px solid #858C94;
+}
+.form textarea {
+  margin-block-end: 2em;
+  font-family: inherit;
+}
+.contact {
+  margin-block-end: 5em;
+}
+
 @media screen and (min-width: 992px) {
   .nav-link:hover {
     color: var(--imp-white) !important;
   }
 }
+

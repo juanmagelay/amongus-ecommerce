@@ -40,6 +40,7 @@
         </nav>
     </header>
     <main>
+
         <div class="container-fluid">
             <div class="container mt-5">
                 <div class="row align-items-center m-auto">
@@ -107,8 +108,29 @@
             </div>
         </div>
     </div>
-       
-    <div class="container">
+
+     <!--Formulario-->  
+     <section class="contact">
+        <div class="u-wrapper">
+          <div class="contact-content">
+    
+            <form id="form" class="form"  action="https://formspree.io/f/mwkazkkb" method="POST">
+              
+              <label for="name">Nombre Completo <span>*</span></label>
+              <input name="name" required type="text" id="name" placeholder="Juan">
+              <label for="email">Correo electrónico <span>*</span></label>
+              <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+              <button type="submit" class="btn primary full btn-conoce">enviar mensaje</button>
+            </form>
+
+          </div>
+        </div>
+      </section>
+    <!-- <form>
+    <div class="container form">
+        
         <div class="row text center justify-content-center align-items-center">
             <div class="container-fluid container-form m-5 text center justify-content-center align-items-center">
                 <div class="row text-center p-3 justify-content-center align-items-center">
@@ -116,19 +138,19 @@
                 </div>
                 <div class="row pl-3 pr-3">
                     <label for="exampleFormControlTextarea1" class="form-label text-dark text-left align-items-left">Nombre</label>
-                    <textarea placeholder="Tu nombre" class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <textarea placeholder="Tu nombre" class="form-control input-nombre" id="exampleFormControlTextarea1" rows="1"></textarea>
                 </div>
                 <div class="row pl-3 pr-3">
                     <label for="exampleFormControlTextarea1" class="form-label text-dark text-left align-items-left">Email</label>
-                    <textarea placeholder="Tu correo" class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                    <textarea placeholder="Tu correo" class="form-control input-email" id="exampleFormControlTextarea1" rows="1"></textarea>
                 </div>
                 <div class="row pl-3 pr-3">
                     <label for="exampleFormControlTextarea1" class="form-label text-dark text-left align-items-left">Mensaje</label>
-                    <textarea placeholder="Tu mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea placeholder="Tu mensaje" class="form-control input-mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
 
                 <div class="row pl-3 pr-3 pt-4">
-                    <button type="button" class="btn btn-conoce btn-md imp-button imp-button-mobile mb-2">Enviar</button>
+                    <button type="button" class="btn btn-conoce btn-md imp-button imp-button-mobile mb-2 btn-enviar">Enviar</button>
                 </div>
                 
             </div>
@@ -139,6 +161,7 @@
             
         </div>
     </div>
+</form> -->
 
 
 
@@ -160,7 +183,7 @@
             </div>
         </div>
     </footer>
-
+       
         <!--Boostrap 4 JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
