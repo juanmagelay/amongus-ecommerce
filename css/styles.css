@@ -56,6 +56,9 @@ body {
   font-family: 'Amatic SC';
   color: var(--imp-green);
 }
+textarea{
+  resize: none;
+}
 
 /*Buttons*/
 .imp-button {
@@ -198,18 +201,11 @@ body {
 
 /*Footer*/
 footer {
-  height: 82px;
-  display: flex;
-  align-items: center;
   background-color: var(--imp-white);
   color: var(--imp-black);
 }
-.logo-behance {
-  margin-left: 20px;
-}
 .titulo-footer {
   font-family: 'vcr_osd_monoregular';
-  font-size: 18px;
   color: var(--imp-black);
 }
 .subtitulo-footer{
@@ -226,6 +222,12 @@ footer {
   color: var(--imp-black);
   font-size: 96px;
 }
+.bg-pink .navbar [aria-expanded="true"] .navbar-toggler-icon {
+  background-image: url("../assets/icons/imp-times-black.png");
+}
+.bg-pink .navbar .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+  background-image: url("../assets/icons/imp-hamburguer-black.png");
+}
 .landing-text{
   color: var(--imp-black);
   font-size: xx-large;
@@ -238,12 +240,10 @@ footer {
 }
 
 .container-derecha{
-
   background-image: url("../assets/img/fondo\ compra\ derecha.png");
 }
 
 .container-izquierda{
-
   background-color: #3590F3;
 }
 
@@ -271,24 +271,21 @@ footer {
 }
 .btn-conoce{
   background-color: #FF7606;
-  border-radius:8px;
-  width: 300px;
+  border-radius: 8px;
   color: white;
-  
+  font-family: 'Walter Turncoat', cursive;
 }
 
 /* Form landing*/
-
+#contacto{
+  font-family: 'Walter Turncoat', cursive;
+}
 .container-form {
-
   background-color: #FFFFFF;
-  height: 462px;
-  width: 341px;
-  border-radius: 0px;
 }
 
 .comunicate {
-  font-family: 'Amatic SC';
+  font-family: 'Walter Turncoat', cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -300,20 +297,10 @@ footer {
   margin: 0 auto;
   padding: 0 1em;
 }
-.form {
-  max-inline-size: 550px;
-  margin: auto;
-
-}
-.form label {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: .5em;
-  padding-inline-start: .5em;
+.input-form{
+  background-color: #F2F2F2 !important;
 }
 .form input, .form textarea {
-  box-sizing: border-box;
-  width: 100%;
   font-size: 1rem;
   padding: .8em;
   border-radius: .5em;
@@ -332,4 +319,8 @@ footer {
     color: var(--imp-white) !important;
   }
 }
-
+@media screen and (max-width: 992px){
+  #contacto{
+    background-color: var(--imp-white) !important;
+  }
+}
