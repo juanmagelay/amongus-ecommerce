@@ -257,7 +257,8 @@ footer {
   color: var(--imp-white) !important;
 }
 .container-derecha{
-  background-image: url("../assets/img/fondo\ compra\ derecha.png");
+  background-image: url("../assets/img/imp-background.png");
+  background-size: cover;
 }
 .container-izquierda{
   background-color: #3590F3;
