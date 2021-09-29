@@ -136,21 +136,20 @@
 
   <!--Seccion feedback-->
   <section class="feedback">
-    <h4 class="pb-4">Contactanos</h4>
-    <div class="input-group">
-      <div class="mb-4">
-        <label for="exampleFormControlTextarea1" class="form-label text-dark">Email</label>
-        <textarea placeholder="Tu email" class="input-feedback form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <div class="u-wrapper">
+      <div class="contact-content">
+        <form id="form" class="form" action="https://formspree.io/f/mwkazkkb" method="POST">
+          <h4>Contactanos</h4>
+          <label for="name">Nombre<span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Tu nombre">
+          <label for="email">Email<span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="Tu email">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" id="" cols="30" rows="5"></textarea>
+          <button type="submit" class="btn btn-primary btn-lg imp-button imp-button-desktop imp-button-outstanding mb-2">Enviar mensaje</button>
+        </form>
+        <a href="mailto:juanmanuelgelay@gmail.com" id="trucazo"></a>
       </div>
-    </div>
-    <div class="input-group">
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label text-dark">Escribí tu mensaje</label>
-        <textarea placeholder="Escribí acá" class="input-feedback form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-      </div>
-    </div>
-     <div class="input-group">
-        <button class="btn btn-primary btn-lg imp-button imp-button-desktop imp-button-outstanding mb-2" type="submit">Enviar</button>
     </div>
   </section>
 
