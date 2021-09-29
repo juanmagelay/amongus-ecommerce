@@ -54,6 +54,15 @@ async function handleSubmit(event){
     }    
 }
 
+// Esconder título en mobile al clickear el menú hamburguesa
 
+function hideTitle(){
+    let title = document.getElementById('title-huron');
+    if(title.style.display != 'none'){
+        title.style.display = 'none';
+    }else{
+        title.style.display = 'inline-block';
+    }
+}
 
 

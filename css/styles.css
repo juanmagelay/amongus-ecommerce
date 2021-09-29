@@ -217,6 +217,11 @@ footer {
 .bg-pink{
   background-color: var(--landing-bg-pink) !important;
 }
+.button-position{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 .navbar-brand .landing-title{
   font-size: 30px;
 }
