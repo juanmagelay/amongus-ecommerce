@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="../css/styles.css">
+    
+    
 </head>
 <body class="bg-pink">
     <header>
@@ -64,13 +66,16 @@
             </div>
         </div>
     </main>
+
+    <!--2da seccion-->
+    
     <div id="amongus" class="cointainer-fluid">
         <div class="row col-12 m-0 p-0">
             <div class="col-lg-6 col-md-12 col-sm-12 container-izquierda">
                 <div class="section-games1">
                     <div class="container-fluid">
                         <div class="container">
-                            <div class="row align-items-center justify-content-center text-center m-auto">   
+                            <div class="row align-items-center justify-content-center text-center mt-5 mr-5 ml-5">   
                                 <div class="col-lg-12 text-left col-md-12 col-sm-12 mt-5 mb-5 p-0">
                                     <h2 class="left-text pl-4">VISITÁ NUESTRA TIENDA ONLINE Y ADQUIRÍ EL NUEVO JUEGO.</h2>
                                 </div>
@@ -115,37 +120,26 @@
             </div>
         </div>
     </div>
-       
-    <div id="contacto" class="container col-12 p-0 m-0">
-        <div class="col-12 mt-lg-5 mb-lg-5 m-0 p-0 row text-center justify-content-center align-items-center">
-            <div class="container-form p-5">
-                <div class="row text-center p-3 justify-content-center align-items-center">
-                    <h2 class="comunicate">¡Comunicate con nosotros!</h2>
-                </div>
-                <div class="row pl-3 pr-3">
-                    <label for="exampleFormControlTextarea1" class="form-label text-dark text-left align-items-left">Nombre</label>
-                    <textarea placeholder="Tu nombre" class="form-control input-form border-0 p-3" id="exampleFormControlTextarea1" rows="1"></textarea>
-                </div>
-                <div class="row pl-3 pr-3">
-                    <label for="exampleFormControlTextarea1" class="form-label text-dark text-left align-items-left">Correo electrónico</label>
-                    <textarea placeholder="mail@ejemplo.com" class="form-control input-form border-0 p-3" id="exampleFormControlTextarea1" rows="1"></textarea>
-                </div>
-                <div class="row pl-3 pr-3">
-                    <label for="exampleFormControlTextarea1" class="form-label text-dark text-left align-items-left">Mensaje</label>
-                    <textarea placeholder="¡Acá va tu mensaje!" class="form-control input-form border-0 p-3" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="row col-12 m-0 p-0">
-                    <button type="button" class="btn btn-conoce btn-md imp-button imp-button-mobile w-100 pt-3 pb-3 btn-enviar mt-4">Enviar</button>
-                </div>
-                
+
+<!--Form-->
+
+        <section class="contact">
+            <div class="u-wrapper">
+              <div class="contact-content">
+                <form id="form" class="form mt-5" action="https://formspree.io/f/mwkazkkb" method="POST">
+                  <h4>Contáctanos</h4>
+                  <label for="name">Nombre Completo <span>*</span></label>
+                  <input name="name" required type="text" id="name" placeholder="Juan">
+                  <label for="email">Correo electrónico <span>*</span></label>
+                  <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+                  <label for="message">Mensaje</label>
+                  <textarea id="message" name="message" id="" cols="30" rows="5"></textarea>
+                  <button type="submit" class="btn primary full btn-conoce">Enviar mensaje</button>
+                </form>
+                <a href="mailto:me@leonidasesteban.com" id="trucazo"></a>
+              </div>
             </div>
-        </div>
-    </div>
-
-</form>
-
-
-
+          </section>
 
     <footer>
         <div class="container p-3 p-lg-0">
@@ -160,11 +154,12 @@
             </div>
         </div>
     </footer>
-       
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <!--Boostrap 4 JS-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         <!--JS-->
         <script src="../js/script.js"></script>
+        
 </body>
 </html>
